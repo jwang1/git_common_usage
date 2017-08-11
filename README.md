@@ -16,6 +16,12 @@ notes for git usage, common commands
    
    1.5 git remote -vv  (now should see the remote-github-url)
    
+      1.5.1  ```git branch --set-upstream-to=origin/master master```  (set local master branch to track remote github master branch)
+      
+      1.5.2  ```git branch -vv``` (can tell if local master branch links/tracks remote-github-repo-master-branch)
+      
+      1.5.3  ```git pull --rebase``  (will get code from remote-master-branch, and put local changes on top of that - rebase)
+   
    1.6 git pull --rebase  (supposedly using default master branch),  to get remote repository README.md etc
    
    1.7 ```git push --set-upstream origin master```  (upload local git-repository to GitHub)
